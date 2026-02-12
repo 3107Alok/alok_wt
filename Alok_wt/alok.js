@@ -272,19 +272,19 @@ setTimeout(()=>{
 },2000); */
 
 
-/* function bakeCAke(mycallback){
+/*  function bakeCAke(mycallbackk){
     console.log("Cake is in oven");
     setTimeout(()=>{
         console.log("Cake is ready");
-        mycallback();
+        mycallbackk();
     },2000);
 }
 bakeCAke(()=>{
     console.log("Eating Cake");
-}) */
+})  */
 
 
-
+/*
 function bakeCake(){
     return new Promise((resolveR1,rejectR2)=>{
         console.log("Cake is in oven");
@@ -304,11 +304,11 @@ bakeCake().then((message)=>{
     console.log("Eating Cake");
 }).catch((error)=>{
     console.log("Can eat Pizza Plz");
-}   );
+}   );*/
 
 
 //WAP in JS to check whther u can go to kashmir or not (according to availiability of petrol ) using promise
-
+/*
 function goToKashmir(){
     return new Promise((R1,R2)=>{
         let petrol=100;
@@ -321,4 +321,53 @@ function goToKashmir(){
             }           
         },2000);
     });
+}*/
+
+
+
+
+/* call bck function example*//*
+console.log("Before Execution")
+for(var i=0;i<1;i++){
+    setTimeout(function(){
+        console.log("Set time put msg");
+        func1()
+    },1000)
+    func2()
+}
+console.log("After xecution")
+function func1(){
+    console.log("In func 1")
+}
+
+function func2(){
+    console.log("In func 2")
+}*/
+
+
+//write a program in js  if cake is readt eat it if burnt order pizza plz .....without promise
+
+/* function bakeCake(mycallback){
+    console.log("Cake is in oven");
+    setTimeout(()=>{   
+        let flag=false;
+        if(flag){
+            console.log("Cake is ready");
+            mycallback();
+        }
+        else{
+            console.log("Cake is burnt");
+            console.log("Order Pizza Plz");
+        }  
+    },2000);
+}
+bakeCake(()=>{
+    console.log("Eating Cake");
+})
+   */     
+
+
+
+async function bakeCake(){
+    
 }
