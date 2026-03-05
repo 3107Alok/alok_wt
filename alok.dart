@@ -54,7 +54,7 @@ void main() {
       print("Result = $result");
       break;
     default:
-      print("Invalid choice");
+      print("wrong choice");
   }
 } 
  */
