@@ -99,7 +99,7 @@ void main() {
   print("Put input : ");
   var readLineSync = stdin.readLineSync();
   print("the value is" + readLineSync!);
-  print("the value is $readLineSync");
+  print("the vaallue is $readLineSync");
 }
  */
 
